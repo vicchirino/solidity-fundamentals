@@ -6,4 +6,7 @@
   - @nomiclabs/hardhat-ethers
   - @nomiclabs/hardhat-waffle
   - ethereum-waffle
+
+## Commands:
+- npx hardhat node --> Crete local accounts
   
