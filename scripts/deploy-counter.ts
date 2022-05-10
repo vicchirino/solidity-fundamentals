@@ -6,6 +6,8 @@ async function deploy() {
   const counter = await Counter.deploy();
   await counter.deployed();
 
+  console.log("Counter contract address: --> ", counter.address)
+
   return counter
 }
 
